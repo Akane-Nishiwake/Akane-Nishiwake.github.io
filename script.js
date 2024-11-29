@@ -1,3 +1,5 @@
+
+// Navigation
 function hamburg(){
     const navbar = document.querySelector(".dropdown")
     navbar.style.transform  = "translateY(0px)"
@@ -7,7 +9,7 @@ function cancel(){
     navbar.style.transform  = "translateY(-500px)"
 }
 
-// for Typewriter effect
+// Typewriter effect
 
 const texts = [
     "DEVELOPER",

@@ -179,7 +179,8 @@ section{
 /*About Social Links Manip*/
 .about-social-links {
     display: block;
-    margin: 0 auto;
+    padding-top: 120px;
+    margin: 15px auto;
     width: 100%;
     position: absolute;
     bottom: 30px; 
@@ -293,7 +294,7 @@ section{
     }
 
     .main-container{
-        display: flex;
+        /*display: flex;*/
         flex-direction: column-reverse;
     }
 
@@ -307,9 +308,16 @@ section{
     }
 
     .main-container .content{
-        width: 80%;
+        width: 90%;
     }
     .social-links i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .about-social-links i{
+        margin-top: 15px;
         width: 2.5rem;
         height: 2.5rem;
         font-size: 1.5rem;
@@ -320,6 +328,9 @@ section{
         width: 50%;
         height: 60%;
     }
+    .about-image{
+        width: 150px;
+    }
 }
 
 @media (max-width:440px) {
@@ -329,10 +340,13 @@ section{
     }
 
     .main-container .content{
-        width: 80%;
+        width: 95%;
     }
 
     .main-container button{
         margin-top: 15px;
+    }
+    .about-image{
+        width: 120px;
     }
 }

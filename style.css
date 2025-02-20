@@ -188,7 +188,7 @@ section{
 }
 .about-social-links a{
     margin: 0 10px;
-    color: #d5533d;
+    color: transparent;
 }
 .about-social-links i {
     display: flex;
@@ -235,7 +235,7 @@ section{
     box-shadow: 0 0 40px 5px #8c2c23;
 }
 
-/*Image manip section*/
+/*index Image manip section*/
 .main-container .image{
     width: 300px;
     height: auto;
@@ -253,9 +253,9 @@ section{
     animation: animate 1.5s ease-in-out infinite;
 }
 
-/*About section manip*/
+/*About section image manip*/
 .about-image{
-    width: 50px;
+    width: 100px;
     height:auto;
     border-radius: 100%;
     overflow: hidden;

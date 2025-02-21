@@ -11,16 +11,19 @@
 body
 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color:black;
-    overflow: hidden;
+overflow: scroll;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
 }
 
+section{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
 /*navigation content manip*/
 nav
 {
@@ -125,7 +128,9 @@ section{
 .main-container .content{
     color: antiquewhite;
     width: 40%;
+    max-width: 800px;
     min-height: 100px;
+    text-align:left;
 }
 
 .content h1{
@@ -137,6 +142,7 @@ section{
     text-shadow: 0 0 10px #8c2c23;
     color: #d5533d;
 }
+
 
 .content .typewriter{
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
@@ -151,6 +157,19 @@ section{
 .content p{
     font-size: clamp(0,4rem, 0.2rem + 9vw, 1rem);
     margin : 10px 0;
+    padding-bottom: 15px;
+}
+.content hr{
+    width: 100%;
+    height: 2px;
+    background-color: #d5533d;
+    border: none;
+    margin: 10px 0;
+}
+.content br {
+    display: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 /*Social links manip*/
@@ -179,27 +198,28 @@ section{
 /*About Social Links Manip*/
 .about-social-links {
     display: block;
-    padding-top: 120px;
-    margin: 15px auto;
+    margin: -5% auto;
     width: 100%;
     position: absolute;
     bottom: 30px; 
 }
+
 .about-social-links a{
     margin: 0 10px;
     color: transparent;
 }
+
 .about-social-links i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-color: transparent;
     border: 0.2rem solid #8c2c23;
     border-radius: 50%;
     color: #d5533d;
-    font-size: 1.5rem;
+    font-size: 1rem;
     transition: 0.2s linear;
 }
 
@@ -285,7 +305,7 @@ section{
     }
 }
 
-@media (max-width:884px) {
+@media (max-width:900px) {
     nav .logo{
         position: absolute;
         top: 16px;
@@ -315,12 +335,10 @@ section{
         height: 2.5rem;
         font-size: 1.5rem;
     }
-
     .about-social-links i{
-        margin-top: 15px;
-        width: 2.5rem;
-        height: 2.5rem;
-        font-size: 1.5rem;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
     }
 
     .main-container .image{

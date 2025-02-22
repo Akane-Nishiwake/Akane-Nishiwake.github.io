@@ -265,7 +265,7 @@ section{
 
 .main-container .image img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .main-container .image:hover{

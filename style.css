@@ -257,7 +257,7 @@ section{
 /*index Image manip section*/
 .main-container .image{
     width: 500px;
-    height: auto;
+    height: 100%;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #d5533d;
@@ -275,7 +275,7 @@ section{
 /*About section image manip*/
 .about-image{
     width: 200px;
-    height: auto;
+    height: 100%;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #d5533d;

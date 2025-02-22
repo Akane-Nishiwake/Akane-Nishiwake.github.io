@@ -197,11 +197,11 @@ section{
 
 /*About Social Links Manip*/
 .about-social-links {
-    display: block;
-    margin: -5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    position: absolute;
-    bottom: 30px; 
+    margin-top: 20px;
 }
 
 .about-social-links a{

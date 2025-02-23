@@ -282,6 +282,9 @@ a:hover {
 
 /*About section image manip*/
 .about-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 100%;
     border-radius: 100%;

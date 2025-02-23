@@ -171,7 +171,15 @@ section{
     padding-bottom: 15px;
     padding-top: 15px;
 }
+a {
+    color: #d5533d; /* Change this to your desired color */
+    text-decoration: underline; /* Optional: Remove underline */
+}
 
+a:hover {
+    color: #8c2c23; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
 /*Social links manip*/
 .social-links i{
     display: inline-flex;

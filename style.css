@@ -279,28 +279,34 @@ a:hover {
 
 /*index Image manip section*/
 .main-container .image{
-    display: inline-flex;
-    justify-content: center;
-    margin: 100 auto;
-    width: 500px;
-    height: 80%;
-    border-radius: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 50px #d5533d;
+
+
 }
 
 .main-container .image img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 5%;
-    width: 100%;
-    height: 100%;
+
+
 }
 
 .main-container .image:hover{
     animation: animate 1.5s ease-in-out infinite;
 }
+
+.gif-image{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.git-image img{
+    width: 100%;
+    height: 100%;
+}
+
 
 /*About section image manip*/
 .about-image{

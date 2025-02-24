@@ -279,18 +279,13 @@ a:hover {
 
 /*index Image manip section*/
 .main-container .image{
-
-
+    display:inline-flex;
 }
 
 .main-container .image img{
-
-
+    display: inline-flex;
 }
 
-.main-container .image:hover{
-    
-}
 
 .gif-image{
     display: inline-flex;
